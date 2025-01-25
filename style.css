@@ -2,12 +2,12 @@
 
 @keyframes background {
     
-    50% {background-color:rgb(80, 80, 80);}
+    50% {background-color:rgb(159, 192, 241);}
     
    
 }
 body {
-    background-color:rgb(80, 80, 80);
+    background-color:rgb(159, 192, 241);
     animation-name: background;
     animation-duration: 5s; 
     animation-iteration-count: infinite;
@@ -34,7 +34,7 @@ h1  {
     text-align: match-parent;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     animation-duration: 6s;
-    background-color: rgb(74, 189, 149);
+    background-color: rgb(99, 125, 240);
   }
 
   
@@ -59,7 +59,7 @@ h1  {
 
   li a {
     display: block;
-    color:rgb(74, 189, 149);
+    color:rgb(99, 125, 240);
     padding: 8px 16px;
     text-decoration: none;
     border-bottom: 1px solid #555;
@@ -68,13 +68,13 @@ h1  {
   
   li a.active {
     text-underline-offset: auto;
-    background-color:rgb(74, 189, 149);
+    background-color:rgb(99, 125, 240);
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px rgb(74, 189, 149);
+    text-shadow: 2px 2px 4px rgb(99, 125, 240);
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(180, 221, 196);
+    background-color: rgb(194, 215, 247);
     color: rgb(255, 255, 255);
   }
 
